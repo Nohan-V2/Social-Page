@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Black: #141414;
+    --Dark_Grey: #1F1F1F;
+    --White: #FFFFFF;
+    --Neon_Green: #C4F82A;
+    --Grey: #333333;
+    --Grey_hover: #444444;
+}
+
+body {
+    display: flex;
+    background-color: var(--Black);
+    padding: 10%;
+}
+
+main {
+    width: 384px;
+    background-color: var(--Dark_Grey);
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.image-profile {
+    margin-bottom: 14px;
+    border-radius: 100%;
+}
+
+.name {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: var(--White);
+    font-weight: 600;
+}
+
+.location {
+    margin-bottom: 8px;
+    color: var(--Neon_Green);
+    font-weight: bold;
+}
+
+.description {
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: var(--White);
+    font-weight: normal;
+}
+
+.networks a {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--White);
+    background-color: var(--Grey);
+    width: 304px;
+    padding: 12px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    text-decoration: none;
+}
+
+.networks a:hover {
+    background-color: var(--Grey_hover);
+}
